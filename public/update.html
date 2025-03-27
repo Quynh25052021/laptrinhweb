@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lập trình web</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            header,
+            footer {
+                background-color: #f4f4f4;
+                padding: 10px 0;
+            }
+            header a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: black;
+            }
+            .container {
+                margin: 20px auto;
+                width: 300px;
+                text-align: left;
+            }
+            .container h2 {
+                text-align: center;
+            }
+            .form-group {
+                margin-bottom: 15px;
+            }
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .form-group input {
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+            .form-group a {
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+                text-decoration: none;
+                color: blue;
+            }
+            .form-group button {
+                width: 100%;
+                padding: 10px;
+                background-color: blue;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            footer {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="#">Home</a> | <a href="./login.html">Đăng nhập</a> |
+            <a href="./register.html">Đăng ký</a>
+        </header>
+        <div class="container">
+            <h2>Màn hình cập nhật</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" name="password" />
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Nhập lại mật khẩu</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                <div class="form-group">
+                    <a href="#">Đã có tài khoản</a>
+                    <button type="submit">Đăng ký</button>
+                </div>
+            </form>
+        </div>
+        <footer>Lập trình web ©01/2024</footer>
+    </body>
+</html>

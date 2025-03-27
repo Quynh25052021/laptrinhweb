@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lập trình web</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            header,
+            footer {
+                background-color: #f4f4f4;
+                padding: 10px 0;
+            }
+            header a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: black;
+            }
+            .login-container {
+                margin: 50px auto;
+                width: 300px;
+                border: 1px solid #ccc;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .login-container h2 {
+                margin-bottom: 20px;
+            }
+            .login-container input[type="text"],
+            .login-container input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .login-container input[type="checkbox"] {
+                margin-right: 5px;
+            }
+            .login-container a {
+                display: block;
+                margin: 10px 0;
+                text-decoration: none;
+                color: #007bff;
+            }
+            .login-container button {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px;
+                width: 100%;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .login-container button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="#">Home</a> | <a href="#">Đăng nhập</a> |
+            <a href="./register.html">Đăng ký</a>
+        </header>
+        <div class="login-container">
+            <h2>Màn hình đăng nhập</h2>
+            <form>
+                <input type="text" placeholder="Username" required />
+                <input type="password" placeholder="Mật khẩu" required />
+                <label> <input type="checkbox" /> Ghi nhớ đăng nhập </label>
+                <a href="#">Quên mật khẩu</a>
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
+        <footer>Lập trình web @01/2024</footer>
+    </body>
+</html>
